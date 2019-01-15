@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/new_file.css" />
+		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css"/>
+		<script type="text/javascript" src="lib/jquery-3.3.1.js"></script>
+		<script type="text/javascript" src="lib/bootstrap/js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/1.js"></script>
+		<title></title>
+	</head>
+	<body>
+		<div class="main">
+			<ul>
+				<h1>大类</h1>
+				<li>
+					<a href="#">中类</a>
+					<ul>
+						<li><a href="#">小类</a></li>
+						<li><a href="#">小类</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">中类</a>
+					<ul>
+						<li><a href="#">小类</a></li>
+						<li><a href="#">小类</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</body>
+	<script>
+		$(".main ul li ul").hide();
+		$(".main ul li a").click(function(){
+			$(".main ul li ul").hide(500);
+			$(this).next().show(500);
+		})
+	</script>
+</html>

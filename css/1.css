@@ -1,0 +1,293 @@
+/*顶部菜单*/
+body{
+	/*background: url(../img/1.jpg);*/
+}
+.list{
+	/*border: 1px solid green;*/
+}
+.list h2{
+	float: left;
+	font-weight: 100;
+	margin: 0;
+	margin-top: 5px;
+}
+.list ul{
+	list-style-type: none;/*去除列表的本身的样式，标志*/
+	margin: 0;/*本元素相对于其他元素的距离*/
+	padding: 0;/*自己边界相对于自己的内容之间的间距*/
+	position: relative;
+	top: 10px;
+}
+.list ul li{
+	float: left;
+	margin-left: 10px;
+}
+.list ul li a{
+	display: block;
+	width: 100px;
+	height: 24px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 24px;
+	border: 1px solid green;
+	border-radius:3px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.list ul li span{
+	position: relative;
+	top: -10px;
+	left: 43px;
+	display: none;
+}
+/*顶部菜单点击后样式*/
+.isclick{
+	transition: color 0.5s,background 0.5s;
+	color: white;
+	background: green;
+}
+/*顶部菜单非点击样式*/
+.noclick{
+	transition: color 0.5s,background 0.5s;
+	color: green;
+	background: white;
+}
+.list ul li a:hover{
+	transition: color 0.5s,background 0.5s;
+	color: white;
+	background: green;
+}
+.list ul li:hover span{
+	display: block;
+	transition: display 20s,transform 0.5s;/*问题：效果无法显示*/
+	transform: translateY(5px);
+}
+.clear{
+	clear: both;
+}
+/*页面右侧内容模块*/
+.type{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/*margin: 10px;*/
+	/*margin-left: 1px;*/
+	/*padding: 0;*/
+	overflow: hidden;
+	height: 250px;
+	/*border: 1px solid green;*/
+}
+/*主要显示部分*/
+.type-main{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	
+}
+.type-main img{
+	margin: 0;
+	width: 100%;
+	height: 250px;
+	border-radius:10px;
+}
+/*隐藏部分*/
+.type-hide{
+	margin: 0;
+	height: 250px;
+	background-color: rgba(50,50,50,0.7);
+	position: relative;
+	top: -90px;
+	border-radius:10px;
+}
+.type-hide h1{
+	color: white;
+	font-size: 30px;
+	font: "微软雅黑";
+	text-decoration: none;
+	text-align: center;
+	line-height: 70px;
+	
+}
+.type-hide a{
+	text-decoration:none;
+}
+.type-hide p{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+.type:hover img{
+	box-shadow: 5px 5px 10px darkgrey;
+}
+.type:hover .type-hide{
+	transform: translateY(-180px);
+	transition: transform 0.5s;;
+}
+
+/*页面左侧固定菜单轮廓样式*/
+.body-left{
+	background-color: #191b2e;
+	padding: 0;
+	margin: 0;
+	width: 240px;
+	height:100%;
+}
+/*页面右侧内容样式*/
+.body-right{
+	width: 86.5%;
+	position: absolute;
+	left: 245px;
+	z-index: 1;
+	padding: 0;
+}
+/*搜索框设置*/
+.search{
+	padding: 0;
+	/*margin-top: 10px;*/
+	/*margin-left: 15px;*/
+}
+/*搜索按键*/
+.search-btn{
+	padding: 0;
+	/*margin-top: 10px;*/
+}
+/*logo图*/
+.image{
+	width: 180px;
+	margin: 15px;
+}
+.container-fluid{
+	/*border: 1px solid green;*/
+	padding: 0;
+	background: white;
+}
+/*左侧菜单ul*/
+.left-list ul{
+	list-style-type: none;/*去除列表的本身的样式，标志*/
+	margin: 0;/*本元素相对于其他元素的距离*/
+	padding: 0;/*自己边界相对于自己的内容之间的间距*/
+}
+.left-list ul li{
+	margin-top: 10px;
+}
+.left-list ul li a{
+	display: block;
+	width: 100%;
+	height: 50px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 50px;
+	border-radius:3px;
+}
+.left-list ul li a:hover{
+	box-shadow: -5px 0px 10px darkgrey;
+	font-weight: bolder;
+	transform: translateX(2px);
+	transition: transform 0.5s,color 0.5s;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+}
+/*三角箭头的动作*/
+.left-list ul li a:hover span{
+	transform: translateX(-10px);
+	transition:transform 0.5s;
+}
+/*下方图形动作*/
+.left-list ul li a:hover .pic{
+	transform: rotateZ(360deg);
+	transition:transform 0.5s;
+}
+/*下方图形颜色*/
+.left-list ul li a:hover .ph{
+	color: red;
+}
+.left-list ul li a:hover .ps{
+	color: gold;
+}
+.left-list ul li a:hover .pu{
+	color: lightgreen;
+}
+/*父级菜单被点击后的样式*/
+.isclick1{
+	transform: translateX(2px);
+	transition: color 0.5s,text-decoration 0.5s,transform 0.5s;
+	color: white;
+	font-weight: bolder;
+}
+/*子级菜单被点击后的样式*/
+.isclick2{
+	transform: translateX(2px);
+	transition: color 0.5s,text-decoration 0.5s,transform 0.5s;
+	color: lightgreen;
+	font-weight: bolder;
+}
+/*不被点击的菜单样式*/
+.noclick1{
+	transform: translateX(-2px);
+	transition: color 0.5s,text-decoration 0.5s,transform 0.5s;
+	color: darkgray;
+	font-weight: normal;
+}
+/*子级菜单样式*/
+.menu{
+	display: none;
+	width: 200px;
+	/*background-color: grey;*/
+	color: white;
+	position: relative;
+	
+}
+.menu ul li{
+	width: 45%;
+	margin: 0;
+}
+.menu ul li a{
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+	border-radius:3px;
+}
+.menu ul li:hover a{
+	color: lightgreen
+}
+/*轮播图设置*/
+.carousel-inner img{
+	width: 1000px;
+	height: 500px;
+}
+/*轮播左右按键背景色无色*/
+.left{
+	background-color:transparent;
+}
+.right{
+	background-color: transparent;
+}
+.slide{
+	width: 95%;
+	margin: 25px;
+}
+/*不在关注的设置*/
+.del{
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+	position: relative;
+	left: 170px;
+}
+.del:hover{
+	color: lightgreen;
+}
+/*滚动条设置*/
+.pre-scrollable{
+	max-height: 1300px;
+	background-color: black;
+}
+.row{
+	margin: 0;
+}
+.lunbo{
+	margin-top: 20px;
+}

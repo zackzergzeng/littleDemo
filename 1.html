@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css"/>
+		<link rel="stylesheet" href="css/scroll.css" />
+		<link rel="stylesheet" href="css/1.css" />
+		<script type="text/javascript" src="lib/jquery-3.3.1.js"></script>
+		<script type="text/javascript" src="lib/bootstrap/js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/1.js"></script>
+		<title>全部分类</title>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="navbar-fixed-top pre-scrollable col-md-1 col-sm-2 body-left ">
+				<img src="img/logo.png" class="col-md-12 image" />
+				<form class="col-md-12">
+					<div class="col-lg-8 search">
+						<input type="text" class="form-control" placeholder="搜游戏/主播"/>
+					</div>
+					<div class="col-md-2 search-btn">
+						<input type="submit" class="btn btn-default" />
+					</div>
+				</form>
+				<hr class="col-md-10"/>
+				<div class="col-md-12 left-list">
+					<ul id="left">
+						<li id="left1">
+							<a class="noclick1">全部直播 &nbsp;<span class="glyphicon glyphicon-menu-left"></span></a>
+							<div class="menu">
+								<ul class="list-unstyled list-inline">
+									<li><a>1</a></li>
+									<li><a>2</a></li>
+									<li><a>3</a></li>
+									<li><a>4</a></li>
+								</ul>
+							</div>
+						</li>
+						<li id="left2">
+							<a class="noclick1">全部分类 &nbsp;<span class="glyphicon glyphicon-menu-left"></span></a>
+							<div class="menu">
+								<ul class="list-unstyled list-inline">
+									<li><a>1</a></li>
+									<li><a>2</a></li>
+									<li><a>3</a></li>
+								</ul>
+							</div>
+						</li>
+						<li id="left3">
+							<a class="noclick1">主播排行 &nbsp;<span class="glyphicon glyphicon-menu-left"></span></a>
+							<div class="menu">
+								<ul class="list-unstyled list-inline">
+									<li><a>1</a></li>
+									<li><a>2</a></li>
+									<li><a>3</a></li>
+								</ul>
+							</div>
+						</li>
+						<li id="left4">
+							<a class="noclick1">精品推荐 &nbsp;<span class="glyphicon glyphicon-menu-left"></span></a>
+							<div class="menu">
+								<ul class="list-unstyled list-inline">
+									<li><a>1</a></li>
+									<li><a>2</a></li>
+									<li><a>3</a></li>
+									<li><a>1</a></li>
+									<li><a>2</a></li>
+									<li><a>3</a></li>
+									<li><a>1</a></li>
+									<li><a>2</a></li>
+									<li><a>3</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<hr class="col-md-10" />
+				<div class="col-md-12 left-list">
+					<ul>
+						<li><a class="noclick1">我的关注&nbsp;<span class="glyphicon glyphicon-heart pic ph"></span></a></li>
+						<li><a class="noclick1">我的收藏&nbsp;<span class="glyphicon glyphicon-star pic ps"></span></a></li>
+						<li><a class="noclick1">个人信息&nbsp;<span class="glyphicon glyphicon-user pic pu"></span></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-11 col-sm-10 body-right">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12 list">
+							<h2>所有分类</h2>
+							<ul id="top">
+								<li id="qb" ><a class="isclick">全部</a><span class="glyphicon glyphicon-triangle-bottom"></span></li>
+								<li id="rmjj" ><a class="noclick">热门竞技</a><span class="glyphicon glyphicon-triangle-bottom"></span></li>
+								<li id="yllm" ><a class="noclick">娱乐联盟</a><span class="glyphicon glyphicon-triangle-bottom"></span></li>
+								<li id="syzq" ><a class="noclick">手游专区</a><span class="glyphicon glyphicon-triangle-bottom"></span></li>
+								<li id="zjdj" ><a class="noclick">主机单机</a><span class="glyphicon glyphicon-triangle-bottom"></span></li>
+								<li id="wyzq" ><a class="noclick">网游专区</a><span class="glyphicon glyphicon-triangle-bottom"></span></li>
+								<li id="tyzq" ><a class="noclick">体育专区</a><span class="glyphicon glyphicon-triangle-bottom"></span></li>
+							</ul>
+						</div>
+						<div class="col-md-6 col-sm-12 col-xs-12 lunbo">
+							<div id="myCarousel" class="carousel slide">
+							    <!-- 轮播（Carousel）指标 -->
+							    <ol class="carousel-indicators">
+							        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							        <li data-target="#myCarousel" data-slide-to="1"></li>
+							        <li data-target="#myCarousel" data-slide-to="2"></li>
+							    </ol>   
+							    <!-- 轮播（Carousel）项目 -->
+							    <div class="carousel-inner">
+							        <div class="item active">
+							            <img src="img/1.jpg" alt="First slide">
+							            <div class="carousel-caption"><h1>绝地求生</h1></div>
+							        </div>
+							        <div class="item">
+							            <img src="img/2.jpg" alt="Second slide">
+							            <div class="carousel-caption"><h1>魔兽世界</h1></div>
+							        </div>
+							        <div class="item">
+							            <img src="img/3.jpg" alt="Third slide">
+							            <div class="carousel-caption"><h1>刺客信条</h1></div>
+							        </div>
+							    </div>
+							    <!-- 轮播（Carousel）导航 -->
+							    <a class="carousel-control left" href="#myCarousel" 
+							       data-slide="prev"> <span _ngcontent-c3="" aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span></a>
+							    <a class="carousel-control right" href="#myCarousel" 
+							       data-slide="next"><span _ngcontent-c3="" aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span></a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type rmjj wyzq">
+							<div class="type-main">
+								<img src="img/yxlm.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>英雄联盟</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type rmjj wyzq">
+							<div class="type-main">
+								<img src="img/lscs.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>炉石传说</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type rmjj wyzq">
+							<div class="type-main">
+								<img src="img/swxf.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>守望先锋</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type rmjj wyzq">
+							<div class="type-main">
+								<img src="img/dota.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>DOTA</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type yllm">
+							<div class="type-main">
+								<img src="img/yiren.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>艺人</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type yllm">
+							<div class="type-main">
+								<img src="img/erciyuan.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>二次元</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type yllm">
+							<div class="type-main">
+								<img src="img/meishi.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>美食</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type rmjj zjdj">
+							<div class="type-main">
+								<img src="img/chiji.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>绝地求生</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type rmjj zjdj">
+							<div class="type-main">
+								<img src="img/chiji.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>绝地求生</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type rmjj zjdj">
+							<div class="type-main">
+								<img src="img/chiji.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>绝地求生</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type rmjj zjdj">
+							<div class="type-main">
+								<img src="img/chiji.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>绝地求生</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type rmjj zjdj">
+							<div class="type-main">
+								<img src="img/chiji.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>绝地求生</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type rmjj zjdj">
+							<div class="type-main">
+								<img src="img/chiji.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>绝地求生</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type rmjj zjdj">
+							<div class="type-main">
+								<img src="img/chiji.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>绝地求生</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type rmjj zjdj">
+							<div class="type-main">
+								<img src="img/chiji.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>绝地求生</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type rmjj zjdj">
+							<div class="type-main">
+								<img src="img/chiji.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>绝地求生</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type rmjj zjdj">
+							<div class="type-main">
+								<img src="img/chiji.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>绝地求生</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type rmjj zjdj">
+							<div class="type-main">
+								<img src="img/chiji.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>绝地求生</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type rmjj zjdj">
+							<div class="type-main">
+								<img src="img/chiji.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>绝地求生</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type rmjj zjdj">
+							<div class="type-main">
+								<img src="img/chiji.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>绝地求生</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type rmjj zjdj">
+							<div class="type-main">
+								<img src="img/chiji.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>绝地求生</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type rmjj zjdj">
+							<div class="type-main">
+								<img src="img/chiji.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>绝地求生</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type rmjj zjdj">
+							<div class="type-main">
+								<img src="img/chiji.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>绝地求生</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type rmjj zjdj">
+							<div class="type-main">
+								<img src="img/chiji.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>绝地求生</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type rmjj zjdj">
+							<div class="type-main">
+								<img src="img/chiji.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>绝地求生</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type rmjj zjdj">
+							<div class="type-main">
+								<img src="img/chiji.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>绝地求生</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-4 type rmjj zjdj">
+							<div class="type-main">
+								<img src="img/chiji.png">
+							</div>
+							<div class="type-hide">
+								<a href="#">
+									<h1>绝地求生</h1>
+									<h1>百万主播在线</h1>
+									<p>腾讯王牌游戏，网吧最火</p>
+									<a class="del">不在关注</a>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
